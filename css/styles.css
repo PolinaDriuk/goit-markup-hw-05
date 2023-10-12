@@ -1,9 +1,32 @@
 body {
-    font-family: 'Montserrat', 'Raleway', 'Roboto' sans-serif;
+    font-family: Roboto, sans-serif;
     color: #434455;
     background: #FFFFFF;
     font-size: 16px;
     line-height: 24px;
+}
+
+.studio {
+    color: #2e2f42;
+}
+
+.info {
+    font-style: normal;
+}
+
+.contsct-us {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contsct-us:hoover {
+    color: #404bbf;
+}
+
+.contsct-us:focus {
+    color: #404bbf;
 }
 
 .main-paige {
@@ -22,13 +45,8 @@ body {
 }
 
 .main-paige-btn {
-    border-radius: 4px;
     font-family: "Roboto", sans-serif;
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    border: none;
-    display: inline-flex;
-    box-sizing: border-box;
     text-align: center;
     color: #FFF;
     font-size: 16px;
@@ -121,4 +139,10 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+}
+
+.foot-text {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
