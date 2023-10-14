@@ -6,7 +6,7 @@ body {
     line-height: 24px;
 }
 
-.logo {
+.logo-list {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -14,11 +14,22 @@ body {
     color: #2e2f42;
 }
 
-.logo:hover {
+
+.logo-list:hover {
     color: #404bbf;
 }
 
-.logo:focus {
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-list:focus {
     color: #404bbf;
 }
 
@@ -52,6 +63,7 @@ body {
 .main-tittle {
     color: #FFF;
     font-size: 56px;
+    text-align: center;
     font-style: normal;
     font-weight: 700;
     line-height: 1.07;
@@ -106,6 +118,7 @@ body {
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .team {
@@ -137,6 +150,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
 }
 
 .app {
@@ -148,16 +162,6 @@ body {
 
 .foot {
     background-color: #2e2f42;
-}
-
-.logo-footer {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
 }
 
 .studio-footer {
