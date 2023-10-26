@@ -9,6 +9,7 @@ body {
 .page-header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 
@@ -17,8 +18,8 @@ body {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
     justify-content: space-between;
 }
 
@@ -45,6 +46,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .page-navigation {
@@ -55,12 +57,12 @@ a {
 
 .menu {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 .info-menu {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 .menu-link {
@@ -69,6 +71,8 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 
@@ -82,7 +86,6 @@ a {
 
 .studio {
     color: #2e2f42;
-    margin-right: 76px;
 }
 
 .info {
@@ -106,6 +109,8 @@ a {
 
 .main-paige {
     background: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .main-tittle {
@@ -115,6 +120,7 @@ a {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    max-width: 496px;
 }
 
 .main-paige-btn {
@@ -126,6 +132,10 @@ a {
     line-height: 24px;
     letter-spacing: 0.04em;
     cursor: pointer;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .main-paige-btn.main-paige-btn:hover {
@@ -137,8 +147,8 @@ a {
 }
 
 .section {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .section-tittle {
@@ -157,12 +167,22 @@ a {
     background-color: #FFF;
 }
 
+.benefits-list {
+    display: flex;
+    gap: 24px;
+}
+
+.ben-list-item {
+    width: calc((100% - 72px) / 4);
+}
+
 .benefits-tittles {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .benefits-tittles-descr {
@@ -184,12 +204,18 @@ a {
 
 .team-list {
     display: flex;
+    gap: 24px;
 }
 
 .team-list-item {
     background-color: #FFFFFF;
-    width: 264px;
-    gap: 24px;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .team-names {
@@ -198,6 +224,8 @@ a {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-descr {
@@ -205,10 +233,22 @@ a {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .portfolio {
     background-color: #FFF;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.port-list-item {
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-tittles {
