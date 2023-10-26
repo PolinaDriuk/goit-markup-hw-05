@@ -176,6 +176,11 @@ a {
     width: calc((100% - 72px) / 4);
 }
 
+.hidden-tittle {
+    display: none;
+    visibility: hidden;
+}
+
 .benefits-tittles {
     color: #2E2F42;
     font-size: 20px;
@@ -288,7 +293,6 @@ a {
 .studio-footer {
     color: #f4f4fd;
 }
-
 
 .foot-text {
     line-height: 1.5;
