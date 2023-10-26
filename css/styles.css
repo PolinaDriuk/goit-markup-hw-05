@@ -6,8 +6,31 @@ body {
     line-height: 1.5;
 }
 
+.page-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+
+.container {
+    display: flex;
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    justify-content: space-between;
+}
+
 ul {
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
 }
 
 a {
@@ -22,6 +45,22 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+}
+
+.page-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    column-gap: 40px;
+}
+
+.info-menu {
+    display: flex;
+    column-gap: 40px;
 }
 
 .menu-link {
@@ -43,24 +82,25 @@ a {
 
 .studio {
     color: #2e2f42;
+    margin-right: 76px;
 }
 
 .info {
     font-style: normal;
 }
 
-.contsct-us {
+.contact-us {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.contsct-us:hover {
+.contact-us:hover {
     color: #404bbf;
 }
 
-.contsct-us:focus {
+.contact-us:focus {
     color: #404bbf;
 }
 
@@ -96,6 +136,27 @@ a {
     background-color: #404BBF;
 }
 
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.section-tittle {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.benefits {
+    background-color: #FFF;
+}
+
 .benefits-tittles {
     color: #2E2F42;
     font-size: 20px;
@@ -115,19 +176,21 @@ a {
 }
 
 .team-tittle {
-    color: #2E2F42;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    text-align: center;
+    width: 218px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
 }
 
 .team-list {
-    background-color: #FFFFFF;
+    display: flex;
 }
 
+.team-list-item {
+    background-color: #FFFFFF;
+    width: 264px;
+    gap: 24px;
+}
 
 .team-names {
     color: #2E2F42;
@@ -142,6 +205,10 @@ a {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
+}
+
+.portfolio {
+    background-color: #FFF;
 }
 
 .portfolio-tittles {
