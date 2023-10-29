@@ -127,15 +127,6 @@ a {
     padding-bottom: 188px;
 }
 
-.main-paige-div {
-    width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    text-align: center;
-}
-
 .main-tittle {
     color: #FFF;
     font-size: 56px;
@@ -160,6 +151,7 @@ a {
     height: 56px;
     border: none;
     border-radius: 4px;
+    display: block;
 }
 
 .main-paige-btn.main-paige-btn:hover {
