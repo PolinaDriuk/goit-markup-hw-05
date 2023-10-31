@@ -43,7 +43,7 @@ p {
     padding-right: 15px;
 }
 
-.hheader-container {
+.header-container {
     display: flex;
 }
 
@@ -140,7 +140,6 @@ a {
 .main-tittle {
     color: #FFF;
     font-size: 56px;
-    text-align: center;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
