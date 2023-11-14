@@ -312,6 +312,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin-top: 8px;
 }
 
 .social-list-item {
@@ -410,6 +411,12 @@ body {
     transition: transform 250ms linear;
 }
 
+.port-list-item:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .app {
     font-size: 16px;
     line-height: 1.5;
@@ -426,11 +433,7 @@ body {
 
 .footer-container {
     display: flex;
-    width: 1440px;
-    margin-left: 156px;
-    margin-right: 120px;
     justify-content: center;
-    flex-direction: row;
     align-items: baseline;
 }
 
