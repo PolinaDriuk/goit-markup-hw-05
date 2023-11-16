@@ -154,6 +154,8 @@ body {
     background-repeat: no-repeat;
     max-width: 1440px;
     background-position: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .main-tittle {
