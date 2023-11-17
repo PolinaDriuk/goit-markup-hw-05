@@ -505,9 +505,6 @@ body {
 
 .subscribe-form {
     display: flex;
-}
-
-.subscribe-form-label {
     gap: 24px;
 }
 
@@ -693,6 +690,8 @@ body {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     background-color: transparent;
+    outline: transparent;
+    outline-offset: 4px;
     padding: 8px 16px;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -704,8 +703,6 @@ body {
 
 .review-form-message:focus {
     border-color: #4D5AE5;
-    outline: transparent;
-    outline-offset: 4px;
 }
 
 .review-form-checkbox-wrapp {
@@ -729,4 +726,21 @@ body {
     align-items: center;
     justify-content: center;
     fill: transparent;
+}
+
+.review-form-btn {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
