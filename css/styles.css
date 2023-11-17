@@ -715,6 +715,10 @@ body {
     fill: #F4F4FD;
 }
 
+.review-form-checkbox:focus+.review-form-checkbox-label .privacy-policy {
+    outline: 2px solid rgba(0, 0, 0, 255, 0.5);
+}
+
 .review-form-checkbox-label {
     font-size: 12px;
     line-height: 1.17;
