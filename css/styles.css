@@ -582,6 +582,7 @@ body {
 .review-form-label {
     font-size: 12px;
     line-height: 1.17;
+    font-weight: 400;
     letter-spacing: 0.04em;
     color: #8e8f99;
     display: block;
@@ -600,6 +601,7 @@ body {
     background-color: transparent;
     padding-left: 38px;
     outline: transparent;
+    outline-offset: 4px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -615,7 +617,7 @@ body {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-icons:focus {
+.review-form-field:focus+.form-icons {
     fill: #4D5AE5;
 }
 
@@ -628,22 +630,28 @@ body {
     height: 120px;
     font-size: 12px;
     line-height: 1.17;
+    font-weight: 400;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     background-color: transparent;
     padding: 8px 16px;
-    outline: transparent;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.review-form-message:focus {
-    border-color: #4D5AE5;
+.review-form-message::placeholder {
+    color: rgba(46, 47, 66, 0.4);
 }
 
-.checkbox-wrapp {
+.review-form-message:focus {
+    border-color: #4D5AE5;
+    outline: transparent;
+    outline-offset: 4px;
+}
+
+.review-form-checkbox-wrapp {
     margin-bottom: 24px;
 }
 
